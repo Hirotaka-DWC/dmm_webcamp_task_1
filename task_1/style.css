@@ -64,3 +64,20 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .step-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 0;
+  }
+}
